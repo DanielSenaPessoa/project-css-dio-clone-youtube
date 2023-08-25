@@ -6,3 +6,4 @@ Projeto de HMTL e CSS Blog proposto pela expert Michele Ambrosio da plataforma e
 > - Neste projeto segui as orientações do arquivo do Figma disponibilizado no curso.
 
 > ## Link GitHubPages:
+> - https://marcoswinther.github.io/project-css-dio-clone-youtube/

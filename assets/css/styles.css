@@ -1,4 +1,6 @@
-/* header */
+/* 
+   header
+*/
 
 header {
    background: #FFF;
@@ -42,7 +44,9 @@ header .notification img {
    border-radius: 50%;
 }
 
-/* main */
+/* 
+   main 
+*/
 
 main {
    background: #F9F9F9;
@@ -51,6 +55,8 @@ main {
 
    display: flex;
 }
+
+/* LEFT */
 
 main .video {
    margin-left: 75px;
@@ -124,6 +130,50 @@ main .video .channel-infos .download p {
    margin-left: 8px;
 }
 
+main .video .views {
+   width: 391px;
+   height: 16px;
+   padding: 16px 0;
+}
+
+main .video .views p {
+   color: #000;
+   font-weight: 700;
+}
+
+main .video .details {
+   padding-top: 16px;
+   width: 510px;
+}
+
+main .video .details p {
+   color: #515151;
+   font-weight: 400;
+}
+
+/* RIGHT */
+
 main .playlist-video {
    margin-left: 25px;
+}
+
+main .playlist-video .thumbnail {
+   display: flex;
+   margin-bottom: 16px;
+}
+
+main .playlist-video .thumbnail .thumbnail-infos {
+   width: 196px;
+   max-height: 90px;
+   margin-left: 16px;
+}
+
+main .playlist-video .thumbnail .thumbnail-infos .thumbnail-channel,
+main .playlist-video .thumbnail .thumbnail-infos .thumbnail-views {
+   padding-top: 7px;
+}
+
+main .playlist-video .thumbnail .thumbnail-infos .thumbnail-channel p,
+main .playlist-video .thumbnail .thumbnail-infos .thumbnail-views p {
+   font-size: 12px;
 }
